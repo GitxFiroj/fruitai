@@ -13,7 +13,7 @@ const Chatbot = () => {
 
       // API call to get response
       const response = await axios.post(
-        'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyCshI_uFXxRhAnqPyOkDRQwTGanVPgrjT8',
+        'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyD0vTdMaBlzknoJHaqp3zj0wJWsfX6phVo',
         { contents: [{ parts: [{ text: inputMessage }] }] }
       );
 
